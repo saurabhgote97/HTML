@@ -1,0 +1,34 @@
+<!doctype HTML>
+<html>
+	<head>
+	<script type="text/JavaScript">
+	document.write("Welcome to java Script head<br/><br/>");
+	function validate() {
+	alert("Function called...")
+                   var name = document.getElementById("Name").value
+	var pass = document.getElementById("Pass").value
+		if(name.length==0 && pass.length==0 )
+		{
+			//alert("Plz enter your name");
+			return false;
+		}else{
+			alert("Success");
+			return true;
+		}
+	}
+
+	</script>
+	</head>
+
+<body>
+<form action="first.html" method="post" onSubmit="return validate()">
+UserName:<input type="text" name="Uname" id="Name" required="true"  >
+<br/>
+
+PassWord:<input type="text" name="Pass" id="Pass"  required="true"><br/>
+<input type = "Submit" value="Login" >
+</form>
+
+</body>
+
+</html>

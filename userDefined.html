@@ -1,0 +1,32 @@
+<!doctype HTML>
+<html>
+	<head>
+	<script type="text/JavaScript">
+	document.write("Welcome to java Script head");
+	function displayAdd() {
+                   var a = document.ff.Num1.value
+	var b = document.ff.Num2.value
+	var res = eval(a)+eval(b);
+	document.ff.res.value = res;
+	}
+	function displaySub(c,d) {
+	var rest =c-d;
+	return rest;
+	}
+
+	</script>
+	</head>
+
+<body>
+<form name ='ff'>
+Num1:<input type="text" name="Num1"  ><br/>
+
+Num2:<input type="text" name="Num2" ><br/>
+
+Res: <input type = "text" name ="res"  >
+<input type = "button" value="ADD" onClick="displayAdd()">
+</form>
+
+</body>
+
+</html>

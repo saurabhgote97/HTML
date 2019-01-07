@@ -1,0 +1,45 @@
+<!doctype HTML>
+<html>
+	<head>
+	<script type="text/JavaScript">
+	document.write("Welcome to java Script head");
+	</script>
+	</head>
+
+<body>
+<script type="text/JavaScript">
+do{
+ alert("1 : add and 2: Sub");
+
+var ch = eval(prompt("Enter your value " ));
+var a,b,c;
+
+switch(ch) {
+ case 1 :
+	 a = prompt("Enter the value of a");
+	 b = prompt("Enter the value of b");
+	 c = eval(a)+eval(b);
+	alert("addition is " +c );
+                   break;
+case 2 :
+	 a = prompt("Enter the value of a");
+	 b = prompt("Enter the value of b");
+	 c = eval(a)-eval(b);
+	alert("Subtraction is " +c );
+                   break;
+
+default : 
+	 alert("Enter correct value");
+	break;
+}
+var con = confirm("do you want to continue???");
+}while(con);
+
+
+
+</script>
+
+
+</body>
+
+</html>

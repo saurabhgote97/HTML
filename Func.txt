@@ -1,0 +1,25 @@
+<!doctype HTML>
+<html>
+	<head>
+	<script type="text/JavaScript">
+	document.write("Welcome to java Script head");
+	function display() {
+	document.write("Welcome to user - defined function");
+
+	}
+
+	</script>
+	</head>
+
+<body>
+<p>Welcome to html page</p>
+
+
+
+
+</script>
+
+
+</body>
+
+</html>
